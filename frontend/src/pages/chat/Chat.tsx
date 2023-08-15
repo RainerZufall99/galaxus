@@ -145,7 +145,8 @@ const Chat = () => {
                     <ShieldLockRegular className={styles.chatIcon} style={{color: 'darkorange', height: "200px", width: "200px"}}/>
                     <h1 className={styles.chatEmptyStateTitle}>Bitte einloggen!</h1>
                     <h2 className={styles.chatEmptyStateSubtitle}>
-                       
+                    <a href="https://galaxushelpcenter.azurewebsites.net/.auth/login/google/callback" target="_blank">
+                    <button>Hier einloggen!</button>                        </a>
                     </h2>
                 </Stack>
             ) : (
